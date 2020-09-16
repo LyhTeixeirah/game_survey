@@ -1,9 +1,17 @@
 package com.lyhteixeirah.game_survey.dto;
 
+import java.io.Serializable;
+
 import com.lyhteixeirah.game_survey.entities.Game;
 import com.lyhteixeirah.game_survey.entities.enums.Platform;
 
-public class GameDto {
+public class GameDto implements Serializable {
+    
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
     
     private Long id;
     private String title;
@@ -41,8 +49,5 @@ public class GameDto {
     public void setPlatform(Platform platform) {
         this.platform = platform;
     }
-
-    
-
     
 }

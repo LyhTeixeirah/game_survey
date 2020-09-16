@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.lyhteixeirah.game_survey.dto.GameDto;
 import com.lyhteixeirah.game_survey.entities.Game;
-import com.lyhteixeirah.game_survey.services.GameServies;
+import com.lyhteixeirah.game_survey.services.GameServices;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +21,7 @@ public class GameController {
      */
 
     @Autowired
-    private GameServies service; 
+    private GameServices service; 
    
 
     @GetMapping()

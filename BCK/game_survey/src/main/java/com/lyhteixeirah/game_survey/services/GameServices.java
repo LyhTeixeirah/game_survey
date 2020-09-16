@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class GameServies {
+public class GameServices {
     
     @Autowired
     private GameRepository repository;
@@ -23,6 +23,13 @@ public class GameServies {
     @Transactional(readOnly = true)
     public List<GameDto> findAll(){
         List<Game> games = repository.findAll();
+
+        /**
+         * Lambda
+         * .stream: aceita funções de alta ordem e funções Lambda
+         */
         return games.stream().map(x -> new GameDto(x)).collect(Collectors.toList());
+
+        
     }
 }
