@@ -3,7 +3,6 @@ package com.lyhteixeirah.game_survey.controllers;
 import java.util.List;
 
 import com.lyhteixeirah.game_survey.dto.GameDto;
-import com.lyhteixeirah.game_survey.entities.Game;
 import com.lyhteixeirah.game_survey.services.GameServices;
 
 import org.springframework.beans.factory.annotation.Autowired;
