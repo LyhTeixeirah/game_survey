@@ -5,7 +5,7 @@ import './styles.css';
 
 const Header = () =>  (
     <header className="main-header">
-        <Logo />
+        <Logo className="logo"/>
         <div className="logo-text">
             <span className="logo-text-1">Big Game </span>
             <span className="logo-text-2">Survey</span>

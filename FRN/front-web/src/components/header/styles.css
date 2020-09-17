@@ -1,8 +1,8 @@
 .main-header {
-    height: 30px;
-    padding: 20px 40px;
+    height: 20px;
+    padding: 10px 30px;
     display: flex;
-    background-color: var(--color-darkslategray);
+    opacity: 80%;
   }
   
   .logo-text {
