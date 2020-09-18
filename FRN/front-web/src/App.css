@@ -19,7 +19,6 @@ body, html {
 
 body {
   background: var(--color-black);
-  max-width: 800px;
 }
 
 a {

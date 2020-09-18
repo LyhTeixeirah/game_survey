@@ -104,3 +104,46 @@
 .filters-container .action-filters:hover {
   background-color: #04c7ef;
 }
+
+/* My config Screen (1366x768) WXGA Display */
+@media (max-width: 1366px) {
+  .page-container {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+  }
+
+  .filters-container {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 15px;
+    margin-bottom: 25px;
+  }
+
+  .records-table {
+    width: 90%;
+    border-bottom: 10px solid var(--color-turquoise);
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .home-text-subtitle {
+    font-size: 20px;
+  }
+
+  .home-text {
+    width: 410px;
+    margin-right: 100px;
+  }
+
+  .home-btn {
+    font-size: 18px;
+    padding: 10px 70px;
+  }
+
+  .home-actions {
+    margin-top: 40px;
+  }
+}
